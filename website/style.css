@@ -1,0 +1,23 @@
+body { font-family: Arial, sans-serif; max-width: 1050px; margin: 20px auto; padding: 0 15px; line-height: 1.5; }
+a { color: #155fa4; }
+nav { background: #e9f3ff; padding: 12px; }
+nav a { display: inline-block; margin-right: 10px; vertical-align: middle; padding: 3px; }
+nav a.active { font-weight: bold; background: #bcd9f5; }
+.anchors { background: #f0f6fc; padding: 8px; }
+section { margin: 25px 0; }
+figure { display: inline-block; vertical-align: top; margin: 12px 24px 12px 0; max-width: 230px; }
+figcaption { max-width: 230px; font-size: 14px; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #777; padding: 12px; text-align: left; }
+input { margin: 5px 0; }
+fieldset { margin: 10px 0; }
+.gallery-thumb { width: 90px; min-width: 90px; max-width: 90px; height: 60px; object-fit: cover; border: 1px solid #888; }
+.result { font-weight: bold; }
+.passport-picture { position: relative; width: 378px; height: 530px; background: url('img/passport-background.png') no-repeat; background-size: 378px 530px; }
+.passport-field { position: absolute; font-family: 'Times New Roman', serif; font-size: 17px; line-height: 1; font-weight: bold; color: #171717; white-space: nowrap; }
+#passportSurname { left: 157px; top: 293px; }
+#passportName { left: 145px; top: 332px; }
+#passportPatronymic { left: 158px; top: 358px; }
+#passportSexDate { left: 144px; top: 373px; }
+#passportDate { margin-left: 35px; }
+button { cursor: pointer; }
