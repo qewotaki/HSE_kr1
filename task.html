@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Решение алгоритмической задачи — Мир кино</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<nav>
+<a href="index.html" title="На главную"><img src="img/logo.svg" width="45" height="36" alt="Главная"></a>
+<a href="index.html">Главная</a>
+<a href="information.html">Информация</a>
+<a href="gallery.html">Галерея</a>
+<a href="forms.html">Форма</a>
+<a href="passport.html">Паспорт</a>
+<a href="table.html">Таблица</a>
+<a href="task.html" class="active" aria-current="page">Задача</a>
+<a href="dom.html">Считывание из DOM</a>
+<a href="https://www.imdb.com/" target="_blank" rel="noopener noreferrer">IMDb ↗</a>
+</nav>
+<h2>Условие задачи</h2>
+<p>Определить значение функции <b>Z = 1 / (X · Y)</b> при произвольных X и Y.</p>
+<p>Если X или Y равен нулю, вычислить Z нельзя (деление на ноль).</p>
+</section>
+<section id="section2">
+<h2>Вычисление</h2>
+<label>X: <input type="number" step="any" id="x" value="2"></label><br>
+<label>Y: <input type="number" step="any" id="y" value="5"></label><br>
+<button type="button" id="calculate">Вычислить</button>
+<p class="result" id="answer">Результат: —</p>
+</section>
+<script src="js/task.js" defer></script>
+</body>
+</html>

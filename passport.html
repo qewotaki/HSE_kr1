@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Паспорт — Мир кино</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<nav>
+<a href="index.html" title="На главную"><img src="img/logo.svg" width="45" height="36" alt="Главная"></a>
+<a href="index.html">Главная</a>
+<a href="information.html">Информация</a>
+<a href="gallery.html">Галерея</a>
+<a href="forms.html">Форма</a>
+<a href="passport.html" class="active" aria-current="page">Паспорт</a>
+<a href="table.html">Таблица</a>
+<a href="task.html">Задача</a>
+<a href="dom.html">Считывание из DOM</a>
+<a href="https://www.imdb.com/" target="_blank" rel="noopener noreferrer">IMDb ↗</a>
+</nav>
+<section id="section1">
+<section class="passport-picture" aria-label="Пример второй и третьей страницы паспорта">
+<div id="passportSurname" class="passport-field">Иванов</div>
+<div id="passportName" class="passport-field">Иван</div>
+<div id="passportPatronymic" class="passport-field">Иванович</div>
+<div id="passportSexDate" class="passport-field"><span id="passportSex">Муж</span> <span id="passportDate">01.01.2000</span></div>
+</section>
+</section>
+<section id="section2">
+<button type="button" id="changePassport">Перевести на английский</button>
+</section>
+<script src="js/passport.js" defer></script>
+</body>
+</html>
